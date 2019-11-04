@@ -1,0 +1,10 @@
+publish:
+  whoami: asf-site
+  
+github:
+  description: "Apache Submarine"
+  homepage: https://submarine.apache.org/
+  labels:
+    - apache
+    - submarine
+    - machine learning
