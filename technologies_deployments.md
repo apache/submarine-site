@@ -25,7 +25,7 @@ limitations under the License.
             <div style="min-height:140px; padding: 10px;">
               Submarine supports data processing and algorithm development using spark & python through notebook.
             </div>
-            <a href="/docs/0.7.2/interpreter/python.html" class="panel-button">USE NOW <span class="glyphicon glyphicon-chevron-right"></span></a>
+            <a href="#" class="panel-button">USE NOW <span class="glyphicon glyphicon-chevron-right"></span></a>
           </label>
         </div>
       </div>
@@ -38,7 +38,7 @@ limitations under the License.
              <div style="min-height:140px; padding: 20px 10px 10px 10px;">
                Submarine supports multiple machine learning frameworks for model training.
              </div>
-             <a href="/docs/0.7.2/interpreter/spark.html" class="panel-button">USE NOW <span class="glyphicon glyphicon-chevron-right"></span></a>
+             <a href="#" class="panel-button">USE NOW <span class="glyphicon glyphicon-chevron-right"></span></a>
            </label>
          </div>
        </div>
@@ -51,7 +51,7 @@ limitations under the License.
             <div style="min-height:140px; padding: 20px 10px 10px 10px;">
               Submarine supports Yarn, Kubernetes, Docker with Resource Scheduling.
             </div>
-            <a href="/docs/0.7.2/interpreter/spark.html" class="panel-button">USE NOW <span class="glyphicon glyphicon-chevron-right"></span></a>
+            <a href="#" class="panel-button">USE NOW <span class="glyphicon glyphicon-chevron-right"></span></a>
           </label>                     
         </div>
       </div>
@@ -59,7 +59,7 @@ limitations under the License.
     <div class="col-md-12 col-sm-12 col-xs-12 text-center">
       <p class="bottom-text">
         See more details in Submarine more feature.
-        <a href="/docs/0.8.0-SNAPSHOT/manual/interpreters.html">LEARN MORE <span class="glyphicon glyphicon-chevron-right" style="font-size:15px;"></span></a>
+        <a href="#">LEARN MORE <span class="glyphicon glyphicon-chevron-right" style="font-size:15px;"></span></a>
       </p>
     </div>
     <hr />
@@ -75,7 +75,7 @@ limitations under the License.
           </label>
           <label class="content-text">
             Supports data scientists and data engineers to finish their jobs on the same platform without frequently switching their toolsets.<br/>
-            <a href="/docs/0.7.2/install/install.html" class="user-button">LEARN MORE</a>
+            <a href="#" class="user-button">LEARN MORE</a>
           </label>
         </div>
       </div>
@@ -89,14 +89,14 @@ limitations under the License.
           </label>
           <label class="content-text">
             No matter if you have Apache Hadoop YARN, K8s, or just a container service, you will be able to run Submarine on top it.<br/>
-            <a href="/docs/0.7.2/security/shiroauthentication.html" class="user-button">LEARN MORE</a>
+            <a href="#" class="user-button">LEARN MORE</a>
           </label>                 
         </div>
       </div>
     <div class="col-md-12 col-sm-12 col-xs-12 text-center">
       <p class="bottom-text">
         See more details in Submarine more feature.
-        <a href="/docs/0.8.0-SNAPSHOT/manual/interpreters.html">LEARN MORE <span class="glyphicon glyphicon-chevron-right" style="font-size:15px;"></span></a>
+        <a href="#">LEARN MORE <span class="glyphicon glyphicon-chevron-right" style="font-size:15px;"></span></a>
       </p>
     </div>
     </div>
