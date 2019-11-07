@@ -26,11 +26,11 @@ Don't hesitate to report new bugs and improvements ideas.
 
 We like to get code contributions through Pull Requests on our [Github Mirror](https://github.com/apache/submarine).
 
-But before starting, please read our [Contribution guidelines](/contribution/contributions.html), it will give
+But before starting, please read our [Contribution guidelines](https://github.com/apache/submarine/blob/master/docs/community/contributing.md), it will give
 you important information about our review process, and pointers on how to make a good code contribution.
 
 You can visit our [Issue Tracker](https://issues.apache.org/jira/browse/SUBMARINE) to find issues to resolve,
-and if your are a newcomer and don't know where to get started, we have set some [beginner issues](https://issues.apache.org/jira/browse/SUBMARINE-90?jql=project%20%3D%20SUBMARINE%20AND%20status%20%3D%20Open).
+and if your are a newcomer and don't know where to get started, we have set some [beginner issues](https://issues.apache.org/jira/browse/SUBMARINE?jql=project%20%3D%20SUBMARINE%20AND%20status%20%3D%20Open).
 
 #### Other contributions
 

@@ -158,19 +158,19 @@ Default setting options for TOC are definded in [here](https://github.com/apache
 If you're going to create new pages, there are some spots you need to add the location of the page.
 
  - **Dropdown menu in navbar**: add your docs location to [_navigation.html](https://github.com/apache/submarine/blob/master/docs/_includes/themes/submarine/_navigation.html)
- - **Main index**: add your docs below [What is the next?](http://zeppelin.apache.org/docs/latest/#what-is-the-next) section in [index.md](https://github.com/apache/submarine/blob/master/docs/index.md) with a short description. No need to do this if the page is for **Interpreters**.
+ - **Main index**: add your docs below [What is the next?](http://submarine.apache.org/docs/latest/#what-is-the-next) section in [index.md](https://github.com/apache/submarine/blob/master/docs/index.md) with a short description. No need to do this if the page is for **Interpreters**.
 
 
 ## For committers only
 ### Bumping up version in a new release
 
-`ZEPPELIN_VERSION` and `BASE_PATH` property in `_config.yml`
+`SUBMARINE_VERSION` and `BASE_PATH` property in `_config.yml`
 
 ### Deploy to ASF svnpubsub infra
  1. generate static website in `./_site`
 
     ```
-    # go to /docs under Zeppelin source
+    # go to /docs under Submarine source
     JEKYLL_ENV=production bundle exec jekyll build
     ```
 
