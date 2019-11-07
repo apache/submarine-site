@@ -67,7 +67,7 @@
       <a class="navbar-brand" href="/">
         <img src="/assets/themes/submarine/img/submarine_white_logo.png" style="margin-top: -6px;" width="80" alt="I'm submarine">
         <span style="margin-left: 0px;"> Apache Submarine </span>
-        <span style="margin-left: 4px; font-size: 16px; font-family: Arial;">0.4.0</span>
+        <!-- <span style="margin-left: 4px; font-size: 16px; font-family: Arial;">0.4.0</span> -->
       </a>
     </div>
     <nav class="navbar-collapse collapse" role="navigation">
@@ -75,7 +75,7 @@
         <li><a href="https://github.com/apache/submarine/blob/master/docs/helper/QuickStart.md">Quick Start</a></li>
 
         <!-- Download -->
-        <li><a href="https://github.com/apache/submarine/releases">Download</a></li>
+        <li><a href="/download.html">Download</a></li>
 
         <!-- Docs -->
         <!--li class="docs">
@@ -95,8 +95,8 @@
         <li class="docs">
           <a href="#" data-toggle="dropdown" class="dropdown-toggle">Community<b class="caret"></b></a>
           <ul class="dropdown-menu">
+            <li><a href="/community/contributors.html">Contributors</a></li>
             <li><a href="/community/member.html">Member</a></li>
-            <li><a href="https://github.com/apache/submarine/blob/master/docs/community/contributing.md">Contributors</a></li>
             <li><a href="https://github.com/apache/submarine">GitHub</a></li>
           </ul>
         </li>
@@ -111,6 +111,7 @@
             <li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
           </ul>
         </li>
+        <li><a href="https://cwiki.apache.org/confluence/display/SUBMARINE/Roadmap">Roadmap</a></li>
       </ul>
     </nav><!--/.navbar-collapse -->
   </div>
@@ -368,20 +369,20 @@ group: quickstart
 
 <ul>
 <li><strong>Dropdown menu in navbar</strong>: add your docs location to <a href="https://github.com/apache/submarine/blob/master/docs/_includes/themes/submarine/_navigation.html">_navigation.html</a></li>
-<li><strong>Main index</strong>: add your docs below <a href="http://zeppelin.apache.org/docs/latest/#what-is-the-next">What is the next?</a> section in <a href="https://github.com/apache/submarine/blob/master/docs/index.md">index.md</a> with a short description. No need to do this if the page is for <strong>Interpreters</strong>.</li>
+<li><strong>Main index</strong>: add your docs below <a href="http://submarine.apache.org/docs/latest/#what-is-the-next">What is the next?</a> section in <a href="https://github.com/apache/submarine/blob/master/docs/index.md">index.md</a> with a short description. No need to do this if the page is for <strong>Interpreters</strong>.</li>
 </ul>
 
 <h2>For committers only</h2>
 
 <h3>Bumping up version in a new release</h3>
 
-<p><code>ZEPPELIN_VERSION</code> and <code>BASE_PATH</code> property in <code>_config.yml</code></p>
+<p><code>SUBMARINE_VERSION</code> and <code>BASE_PATH</code> property in <code>_config.yml</code></p>
 
 <h3>Deploy to ASF svnpubsub infra</h3>
 
 <ol>
 <li><p>generate static website in <code>./_site</code></p>
-<figure class="highlight"><pre><code class="language-text" data-lang="text"># go to /docs under Zeppelin source
+<figure class="highlight"><pre><code class="language-text" data-lang="text"># go to /docs under Submarine source
 JEKYLL_ENV=production bundle exec jekyll build
 </code></pre></figure></li>
 <li><p>checkout ASF repo
