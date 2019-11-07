@@ -10,7 +10,7 @@
       <a class="navbar-brand" href="/">
         <img src="/assets/themes/submarine/img/submarine_white_logo.png" style="margin-top: -6px;" width="80" alt="I'm submarine">
         <span style="margin-left: 0px;"> Apache Submarine </span>
-        <span style="margin-left: 4px; font-size: 16px; font-family: Arial;">0.4.0</span>
+        <!-- <span style="margin-left: 4px; font-size: 16px; font-family: Arial;">0.4.0</span> -->
       </a>
     </div>
     <nav class="navbar-collapse collapse" role="navigation">
@@ -18,7 +18,7 @@
         <li><a href="https://github.com/apache/submarine/blob/master/docs/helper/QuickStart.md">Quick Start</a></li>
 
         <!-- Download -->
-        <li><a href="https://github.com/apache/submarine/releases">Download</a></li>
+        <li><a href="https://hadoop.apache.org/submarine/downloads/">Download</a></li>
 
         <!-- Docs -->
         <!--li class="docs">
@@ -33,7 +33,7 @@
           </ul>
         </li-->
 
-        <li><a href="https://github.com/apache/submarine/tree/master/docs">Docs</a></li>
+        <li><a href="https://hadoop.apache.org/submarine/docs/Index/">Docs</a></li>
 
         <li class="docs">
           <a href="#" data-toggle="dropdown" class="dropdown-toggle">Community<b class="caret"></b></a>
@@ -54,6 +54,7 @@
             <li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
           </ul>
         </li>
+        <li><a href="https://cwiki.apache.org/confluence/display/SUBMARINE/Roadmap">Roadmap</a></li>
       </ul>
     </nav><!--/.navbar-collapse -->
   </div>
@@ -70,8 +71,8 @@
     <div style="margin-top: -250px; position: relative;">
       <h1 class="submarine-title">Apache Submarine</h1>
       <p class="description">
-        Submarine is a project which allows infra engineer / data scientist to run machine learning <br/>
-        unmodified Tensorflow or PyTorch programs on YARN or Kubernetes.
+        Apache Submarine is a unified AI platform which allows engineers and data scientists to run Machine Learning 
+        and Deep Learning workload in distributed cluster.
       </p>
     </div>
     <div class="border row">
@@ -80,14 +81,17 @@
            style="margin:5px 25px 5px 25px;font-size:15px;">
           GET STARTED
         </a>
-      <a href="https://github.com/apache/submarine/releases" class="btn btn-primary btn-lg" role="button"
+      <a href="https://hadoop.apache.org/submarine/downloads/" class="btn btn-primary btn-lg" role="button"
            style="margin:5px 25px 5px 25px;font-size:15px;">
           DOWNLOAD
+        </a>
+      <a href="https://cwiki.apache.org/confluence/display/SUBMARINE/Roadmap" class="btn btn-primary btn-lg" role="button"
+           style="margin:5px 25px 5px 25px;font-size:15px;">
+          ROADMAP
         </a>
       </div>
     </div>
   </div>
 </div>
-{% include_relative technologies_deployments.md %}
-{% include_relative whats_new.md %}
+{% include_relative technologies_deployments.md %} 
 {% endif %}

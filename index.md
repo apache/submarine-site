@@ -19,7 +19,7 @@ limitations under the License.
 {% include JB/setup %}
 <br />
 <h1 class="index-header">
-  What is Apache Submarine ?
+  What is Apache Submarine?
 </h1>
 
 <br /><br /><br />
@@ -27,7 +27,7 @@ limitations under the License.
   <div class="col-md-6" style="padding-right:0">
     <h1 style="color:#4c555a">ONE PLATFORM</h1>
     <p>
-      Submarine allow Data Scientists to create end-to-end machine learning workflow.
+      Submarine allow Data Scientists to create end-to-end machine learning workflow. (Working in progress)
     </p>
     <ul style="list-style-type: none;padding-left:10px;" >
       <li style="font-size:18px; margin: 5px;"><span class="glyphicon glyphicon-transfer" style="margin-right:10px"></span> Data Analytics</li>
@@ -44,12 +44,13 @@ limitations under the License.
 
 <br />
 ## Workbench
-[Apache Submarine Workbench](https://github.com/apache/submarine/tree/master/docs/workbench) is a WEB system for data scientists. 
+[Apache Submarine Workbench](https://github.com/apache/submarine/tree/master/docs/workbench) (working in progress) is a WEB system for data scientists. 
 Data scientists can interactively access notebooks, submit/manage jobs, manage models, create model training workflows, access data sets, and more through Submarine Workbench.
 
 <img class="img-responsive" width="900px" style="margin:0 auto; padding: 26px;" src="./assets/themes/submarine/img/workspace-project.png" />
 
-### Notebook
+<!--
+### Notebook 
 You can write code and run directly in the workbench through the notebook, using python or spark interpreter, and the results will be graphically displayed.
 
 
@@ -72,49 +73,34 @@ The submarine workbench has integrated the python runtime environment and a rich
 <img class="img-responsive" src="./assets/themes/submarine/img/python_logo.png" width="240px" />
 
 For the further information about Python in Apache Submarine, please see [Python interpreter for Apache Submarine](#).
+-->
 
 <br />
 ## Machine Learning Fromework
 
-Submarine supports them in the form of plugins for different machine learning frameworks. Three machine learning frameworks, tensorflow, pytorch and mxnet, are currently supported.
-
-
-### Tensorflow
-
-TODO
-
-### PyTorch
-
-TODO
-
-
-### Mxnet
-
-TODO
-
+Submarine supports them in the form of plugins for different machine learning frameworks. Three machine learning frameworks, tensorflow, pytorch are currently supported. (Working in progress: Horovod/MXNet)
 
 <br />
 ## Resource Management Independent
 
 Submarine also designed to be resource management independent, no matter if you have Kubernetes, Apache Hadoop YARN or just a container service, you will be able to run Submarine on top it.
 
-### Kubernetes
-
-Submarine developed a submarine operator to allow submarine to run in kubernetes.
-
 ### YARN
 
 Submarine can run in hadoop yarn with docker features
 
+### Kubernetes (In-Progress)
 
-### Docker
+Submarine developed a submarine operator to allow submarine to run in kubernetes.
+
+### Docker (In-Progress)
 
 Submarine can also be run on one or more servers with the docker runtime environment installed.
 You only need to configure the server list in submarine-site.xml, submarine can automatically build these server groups into a cluster, and run submarine services and jobs in this cluster. This feature is very suitable for small-scale user scenarios.
 
+## Roadmaps
 
-<br />
-## 100% Opensource
+Want to learn more about roadmap and release plan of Submarine? Please go to [roadmap](https://cwiki.apache.org/confluence/display/SUBMARINE/Roadmap)
 
 <img class="img-responsive" style="margin:0 auto; padding: 15px;" src="./assets/themes/submarine/img/asf_logo.png" width="250px"/>
 
