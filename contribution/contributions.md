@@ -23,10 +23,10 @@ limitations under the License.
 
 **Apache Submarine** is an [Apache2 License](https://github.com/apache/submarine/blob/master/CONTRIBUTING.md) Software.
 
-Contributing to Zeppelin (Source code, Documents, Image, Website) means you agree to the Apache2 License.
+Contributing to Submarine (Source code, Documents, Image, Website) means you agree to the Apache2 License.
 
-1. Make sure your issue is not already in the [Jira issue tracker](https://issues.apache.org/jira/browse/ZEPPELIN)
-2. If not, create a ticket describing the change you're proposing in the [Jira issue tracker](https://issues.apache.org/jira/browse/ZEPPELIN)
+1. Make sure your issue is not already in the [Jira issue tracker](https://issues.apache.org/jira/browse/SUBMARINE)
+2. If not, create a ticket describing the change you're proposing in the [Jira issue tracker](https://issues.apache.org/jira/browse/SUBMARINE)
 3. Setup travis [Continuous Integration](#continuous-integration)
 4. Contribute your patch via Pull Request on our [Github Mirror](https://github.com/apache/submarine).
 
@@ -69,25 +69,25 @@ You can also test and review a particular Pull Request. Here are two useful ways
 * Using a utility provided from Submarine.
 
     ```
-    dev/test_zeppelin_pr.py [# of PR]
+    dev/test_submarine_pr.py [# of PR]
     ```
 
     For example, if you want to test `#513`, then the command will be:
 
     ```
-    dev/test_zeppelin_pr.py 513
+    dev/test_submarine_pr.py 513
     ```
 
 * Another way is using [github/hub](https://github.com/github/hub).
 
     ```
-    hub checkout https://github.com/apache/zeppelin/pull/[# of PR]
+    hub checkout https://github.com/apache/submarine/pull/[# of PR]
     ```
 
 The above two methods will help you test and review Pull Requests.
 
 ## Source Control Workflow
-Zeppelin follows [Fork & Pull] (https://github.com/sevntu-checkstyle/sevntu.checkstyle/wiki/Development-workflow-with-Git:-Fork,-Branching,-Commits,-and-Pull-Request) model.
+Submarine follows [Fork & Pull] (https://github.com/sevntu-checkstyle/sevntu.checkstyle/wiki/Development-workflow-with-Git:-Fork,-Branching,-Commits,-and-Pull-Request) model.
 
 ## The Review Process
 
@@ -102,44 +102,25 @@ When a Pull Request is submitted, it is being merged or rejected by the  followi
 
 ## Becoming a Committer
 
-The PMC adds new committers from the active contributors, based on their contribution to Zeppelin.
+The PMC adds new committers from the active contributors, based on their contribution to Submarine.
 
 The qualifications for new committers include:
 
-1. Sustained contributions: Committers should have a history of constant contributions to Zeppelin.
+1. Sustained contributions: Committers should have a history of constant contributions to Submarine.
 2. Quality of contributions: Committers more than any other community member should submit simple, well-tested, and well-designed patches.
 3. Community involvement: Committers should have a constructive and friendly attitude in all community interactions. They should also be active on the dev, user list and reviewing patches. Also help new contributors and users.
 
 
 ## Setting up
-Here are some things you will need to build and test Zeppelin.
+Here are some things you will need to build and test Submarine.
 
 ### Software Configuration Management (SCM)
 
-Zeppelin uses Git for its SCM system. so you'll need git client installed in your development machine.
+submarine uses Git for its SCM system. so you'll need git client installed in your development machine.
 
 ### Integrated Development Environment (IDE)
 
 You are free to use whatever IDE you prefer, or your favorite command line editor.
-
-### Project Structure
-
-Zeppelin project is based on Maven. Maven works by convention & defines [directory structure] (https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html) for a project.
-The top-level pom.xml describes the basic project structure. Currently Zeppelin has the following modules.
-
-    <module>zeppelin-interpreter</module>
-    <module>zeppelin-zengine</module>
-    <module>spark</module>
-    <module>markdown</module>
-    <module>angular</module>
-    <module>shell</module>
-    <module>flink</module>
-    <module>ignite</module>
-    <module>lens</module>
-    <module>cassandra</module>
-    <module>zeppelin-web</module>
-    <module>zeppelin-server</module>
-    <module>zeppelin-distribution</module>
 
 ### Code convention
 We are following Google Code style:
@@ -147,7 +128,7 @@ We are following Google Code style:
 * [Java style](https://google.github.io/styleguide/javaguide.html)
 * [Shell style](https://google.github.io/styleguide/shell.xml)
 
-There are some plugins to format, lint your code in IDE (use [_tools/checkstyle.xml](https://github.com/apache/zeppelin/tree/master/_tools) as rules)
+There are some plugins to format, lint your code in IDE (use [_tools/checkstyle.xml](https://github.com/apache/submarine/tree/master/_tools) as rules)
 
 * [Checkstyle plugin for Intellij](https://plugins.jetbrains.com/plugin/1065) ([Setting Guide](http://stackoverflow.com/questions/26955766/intellij-idea-checkstyle))
 * [Checkstyle plugin for Eclipse](http://eclipse-cs.sourceforge.net/#!/) ([Setting Guide](http://eclipse-cs.sourceforge.net/#!/project-setup))
@@ -156,33 +137,33 @@ Checkstyle report location is in `${submodule}/target/site/checkstyle.html`
 Test coverage report location is in `${submodule}/target/site/cobertura/index.html`
 
 ## Getting the source code
-First of all, you need the Zeppelin source code.
+First of all, you need the Submarine source code.
 
-The official location for Zeppelin is [http://git.apache.org/zeppelin.git](http://git.apache.org/zeppelin.git).
+The official location for Submarine is [http://git.apache.org/submarine.git](http://git.apache.org/submarine.git).
 
 ### git access
 
 Get the source code on your development machine using git.
 
 ```
-git clone git://git.apache.org/zeppelin.git zeppelin
+git clone git://git.apache.org/submarine.git submarine
 ```
 
 You may also want to develop against a specific branch. For example, for branch-0.5.6
 
 ```
-git clone -b branch-0.5.6 git://git.apache.org/zeppelin.git zeppelin
+git clone -b branch-0.5.6 git://git.apache.org/submarine.git submarine
 ```
 
 or with write access
 
 ```
-git clone https://git-wip-us.apache.org/repos/asf/zeppelin.git
+git clone https://git-wip-us.apache.org/repos/asf/submarine.git
 ```
 
 ### Fork repository
 
-If you want not only build Zeppelin but also make change, then you need fork [Zeppelin github mirror repository](https://github.com/apache/zeppelin) and make a pull request.
+If you want not only build Submarine but also make change, then you need fork [Submarine github mirror repository](https://github.com/apache/submarine) and make a pull request.
 
 
 ## Build
@@ -216,50 +197,50 @@ mvn install -Phadoop-2.2 -Dhadoop.version=2.2.0 -Pspark-1.3 -Dspark.version=1.3.
 Each new File should have its own accompanying unit tests. Each new interpreter should have come with its tests.
 
 
-Zeppelin has 3 types of tests:
+submarine has 3 types of tests:
 
 * __Unit Tests:__ The unit tests run as part of each package's build. E.g. SparkInterpeter Module's unit test is SparkInterpreterTest
-* __Integration Tests:__ The integration tests run after all modules are build. The integration tests launch an instance of Zeppelin server. ZeppelinRestApiTest is an example integration test.
-* __GUI integration tests:__ These tests validate the Zeppelin UI elements. These tests require a running Zeppelin server and launches a web browser to validate Notebook UI elements like Notes and their execution. See ZeppelinIT as an example.
+* __Integration Tests:__ The integration tests run after all modules are build. The integration tests launch an instance of submarine server. submarineRestApiTest is an example integration test.
+* __GUI integration tests:__ These tests validate the submarine UI elements. These tests require a running submarine server and launches a web browser to validate Notebook UI elements like Notes and their execution. See submarineIT as an example.
 
 Currently the __GUI integration tests__ are not run in the Maven and are only run in the CI environment when the pull request is submitted to github.
 
-Make sure to watch the [CI results] (https://travis-ci.org/apache/zeppelin/pull_requests) for your pull request.
+Make sure to watch the [CI results] (https://travis-ci.org/apache/submarine/pull_requests) for your pull request.
 
 #### Running GUI integration tests locally
 
 ##### All tests, just like the CI:
 
 ```
-PATH=~/Applications/Firefox.app/Contents/MacOS/:$PATH CI="true" mvn verify -Pspark-1.6 -Phadoop-2.3 -Ppyspark -B -pl "zeppelin-interpreter,zeppelin-zengine,zeppelin-server,zeppelin-display,spark-dependencies,spark" -Dtest="org.apache.zeppelin.AbstractFunctionalSuite" -DfailIfNoTests=false
+PATH=~/Applications/Firefox.app/Contents/MacOS/:$PATH CI="true" mvn verify -Pspark-1.6 -Phadoop-2.3 -Ppyspark -B -pl "submarine-interpreter,submarine-zengine,submarine-server,submarine-display,spark-dependencies,spark" -Dtest="org.apache.submarine.AbstractFunctionalSuite" -DfailIfNoTests=false
 ```
 
-##### Next to a Running instance of Zeppelin
+##### Next to a Running instance of submarine
 
 This allows you to target a specific __GUI integration test__.
 
 ```
-TEST_SELENIUM="true" mvn package -DfailIfNoTests=false -pl 'zeppelin-interpreter,zeppelin-zengine,zeppelin-server' -Dtest=ParagraphActionsIT
+TEST_SELENIUM="true" mvn package -DfailIfNoTests=false -pl 'submarine-interpreter,submarine-zengine,submarine-server' -Dtest=ParagraphActionsIT
 ```
 
 ## Continuous Integration
 
-Zeppelin project's CI system will collect information from pull request author's travis-ci and display status in the pull request.
+submarine project's CI system will collect information from pull request author's travis-ci and display status in the pull request.
 
-Each individual contributor should setup travis-ci for the fork before making a pullrequest. Go to [https://travis-ci.org/profile](https://travis-ci.org/profile) and switch on 'zeppelin' repository.
+Each individual contributor should setup travis-ci for the fork before making a pullrequest. Go to [https://travis-ci.org/profile](https://travis-ci.org/profile) and switch on 'submarine' repository.
 
 
-## Run Zeppelin server in development mode
+## Run submarine server in development mode
 
 ```
-cd zeppelin-server
-HADOOP_HOME=YOUR_HADOOP_HOME JAVA_HOME=YOUR_JAVA_HOME mvn exec:java -Dexec.mainClass="org.apache.zeppelin.server.ZeppelinServer" -Dexec.args=""
+cd submarine-server
+HADOOP_HOME=YOUR_HADOOP_HOME JAVA_HOME=YOUR_JAVA_HOME mvn exec:java -Dexec.mainClass="org.apache.submarine.server.submarineServer" -Dexec.args=""
 ```
 
 or use daemon script
 
 ```
-bin/zeppelin-daemon start
+bin/submarine-daemon start
 ```
 
 Server will be run on http://localhost:8080

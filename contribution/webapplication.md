@@ -26,7 +26,7 @@ limitations under the License.
 ## Dev Mode
 When working on Submarine's WebApplication, it is recommended to run in dev mode.
 
-For that, start Submarine server normally, then use ``yarn run dev`` in _zeppelin-web_ directory.
+For that, start Submarine server normally, then use ``yarn run dev`` in _submarine-web_ directory.
 
 This will launch a Submarine WebApplication on port **9000** that will update on code changes.
 
