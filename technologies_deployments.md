@@ -57,10 +57,12 @@ limitations under the License.
       </div>
     </div>
     <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+<!--
       <p class="bottom-text">
         See more details in Submarine more feature.
         <a href="#">LEARN MORE <span class="glyphicon glyphicon-chevron-right" style="font-size:15px;"></span></a>
       </p>
+-->
     </div>
     <hr />
     <div class="border row">
@@ -94,10 +96,12 @@ limitations under the License.
         </div>
       </div>
     <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+<!--
       <p class="bottom-text">
         See more details in Submarine more feature.
         <a href="#">LEARN MORE <span class="glyphicon glyphicon-chevron-right" style="font-size:15px;"></span></a>
       </p>
+-->
     </div>
     </div>
   </div>

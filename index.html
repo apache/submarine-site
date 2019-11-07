@@ -67,7 +67,7 @@
       <a class="navbar-brand" href="/">
         <img src="/assets/themes/submarine/img/submarine_white_logo.png" style="margin-top: -6px;" width="80" alt="I'm submarine">
         <span style="margin-left: 0px;"> Apache Submarine </span>
-        <span style="margin-left: 4px; font-size: 16px; font-family: Arial;">0.4.0</span>
+        <!-- <span style="margin-left: 4px; font-size: 16px; font-family: Arial;">0.4.0</span> -->
       </a>
     </div>
     <nav class="navbar-collapse collapse" role="navigation">
@@ -75,7 +75,7 @@
         <li><a href="https://github.com/apache/submarine/blob/master/docs/helper/QuickStart.md">Quick Start</a></li>
 
         <!-- Download -->
-        <li><a href="https://github.com/apache/submarine/releases">Download</a></li>
+        <li><a href="/download.html">Download</a></li>
 
         <!-- Docs -->
         <!--li class="docs">
@@ -95,8 +95,8 @@
         <li class="docs">
           <a href="#" data-toggle="dropdown" class="dropdown-toggle">Community<b class="caret"></b></a>
           <ul class="dropdown-menu">
+            <li><a href="/community/contributors.html">Contributors</a></li>
             <li><a href="/community/member.html">Member</a></li>
-            <li><a href="https://github.com/apache/submarine/blob/master/docs/community/contributing.md">Contributors</a></li>
             <li><a href="https://github.com/apache/submarine">GitHub</a></li>
           </ul>
         </li>
@@ -111,6 +111,7 @@
             <li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
           </ul>
         </li>
+        <li><a href="https://cwiki.apache.org/confluence/display/SUBMARINE/Roadmap">Roadmap</a></li>
       </ul>
     </nav><!--/.navbar-collapse -->
   </div>
@@ -127,8 +128,8 @@
     <div style="margin-top: -250px; position: relative;">
       <h1 class="submarine-title">Apache Submarine</h1>
       <p class="description">
-        Submarine is a project which allows infra engineer / data scientist to run machine learning <br/>
-        unmodified Tensorflow or PyTorch programs on YARN or Kubernetes.
+        Apache Submarine is a unified AI platform which allows engineers and data scientists to run Machine Learning 
+        and Deep Learning workload in distributed cluster.
       </p>
     </div>
     <div class="border row">
@@ -137,9 +138,13 @@
            style="margin:5px 25px 5px 25px;font-size:15px;">
           GET STARTED
         </a>
-      <a href="https://github.com/apache/submarine/releases" class="btn btn-primary btn-lg" role="button"
+      <a href="/download.html" class="btn btn-primary btn-lg" role="button"
            style="margin:5px 25px 5px 25px;font-size:15px;">
           DOWNLOAD
+        </a>
+      <a href="https://cwiki.apache.org/confluence/display/SUBMARINE/Roadmap" class="btn btn-primary btn-lg" role="button"
+           style="margin:5px 25px 5px 25px;font-size:15px;">
+          ROADMAP
         </a>
       </div>
     </div>
@@ -205,10 +210,12 @@ limitations under the License.
       </div>
     </div>
     <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+<!--
       <p class="bottom-text">
         See more details in Submarine more feature.
         <a href="#">LEARN MORE <span class="glyphicon glyphicon-chevron-right" style="font-size:15px;"></span></a>
       </p>
+-->
     </div>
     <hr />
     <div class="border row">
@@ -242,86 +249,17 @@ limitations under the License.
         </div>
       </div>
     <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+<!--
       <p class="bottom-text">
         See more details in Submarine more feature.
         <a href="#">LEARN MORE <span class="glyphicon glyphicon-chevron-right" style="font-size:15px;"></span></a>
       </p>
-    </div>
-    </div>
-  </div>
-</div>
-
-<!--
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
 -->
-
-
-
-<div class="new">
-  <div class="container">
-    <h2>What's new in</h2>
-    <span class="newSubmarine center-block">Apache Submarine 0.4.0</span>
-    <div class="border row">
-      <div class="border col-md-4 col-sm-4">
-        <h4>Submarine Workbench</h4>
-        <div>
-          <p>
-            The Submarine Workbench is a notebook interactive web system for data scientists that can be developed in a team-based manner.<a href="https://github.com/apache/submarine/tree/master/docs/workbench"> Learn More</a>
-          </p>
-        </div>
-      </div>
-      <div class="border col-md-4 col-sm-4">
-        <h4>Python／Spark interpreter</h4>
-        <p>
-            Write python and spark code through the notebook, Perform data processing and algorithm development to visualize the results of the operation.<a href="#"> Learn More</a>
-        </p>
-      </div>
-      <div class="border col-md-4 col-sm-4">
-        <h4>Kubernetes</h4>
-        <div class="personal">
-        <p>
-          Support for kubernetes as a resource scheduling system. Let algorithm development and model training job run on kubernetes.<a href="#"> Learn More</a>
-        </p>
-        </div>
-      </div>
     </div>
-    <div class="border row">
-      <div class="border col-md-4 col-sm-4">
-        <h4>Submarine SDK</h4>
-        <div>
-          <p>
-            Support tracking/metrics APIs which allows developers add tracking/metrics and view tracking/metrics from Submarine Workbench UI.<a href="https://github.com/apache/submarine/tree/master/docs/submarine-sdk"> Learn More</a>
-          </p>
-        </div>
-      </div>
-      <div class="border col-md-4 col-sm-4">
-        <h4>Mini-Submarine</h4>
-        <p>
-            Write python and spark code through the notebook, Perform data processing and algorithm development to visualize the results of the operation.<a href="#"> Learn More</a>
-        </p>
-      </div>
-      <div class="border col-md-4 col-sm-4">
-        <h4>MXNet</h4>
-        <div class="personal">
-        <p>
-          Support for the Apache MXNet framework.<a href="#"> Learn More</a>
-        </p>
-        </div>
-      </div>
     </div>
   </div>
 </div>
-
+ 
 
 
 
@@ -351,7 +289,7 @@ limitations under the License.
 
 <p><br />
 <h1 class="index-header">
-  What is Apache Submarine ?
+  What is Apache Submarine?
 </h1></p>
 
 <p><br /><br /><br />
@@ -359,7 +297,7 @@ limitations under the License.
   <div class="col-md-6" style="padding-right:0">
     <h1 style="color:#4c555a">ONE PLATFORM</h1>
     <p>
-      Submarine allow Data Scientists to create end-to-end machine learning workflow.
+      Submarine allow Data Scientists to create end-to-end machine learning workflow. (Working in progress)
     </p>
     <ul style="list-style-type: none;padding-left:10px;" >
       <li style="font-size:18px; margin: 5px;"><span class="glyphicon glyphicon-transfer" style="margin-right:10px"></span> Data Analytics</li>
@@ -378,56 +316,42 @@ limitations under the License.
 
 <h2>Workbench</h2>
 
-<p><a href="https://github.com/apache/submarine/tree/master/docs/workbench">Apache Submarine Workbench</a> is a WEB system for data scientists. 
+<p><a href="https://github.com/apache/submarine/tree/master/docs/workbench">Apache Submarine Workbench</a> (working in progress) is a WEB system for data scientists. 
 Data scientists can interactively access notebooks, submit/manage jobs, manage models, create model training workflows, access data sets, and more through Submarine Workbench.</p>
 
 <p><img class="img-responsive" width="900px" style="margin:0 auto; padding: 26px;" src="./assets/themes/submarine/img/workspace-project.png" /></p>
 
-<h3>Notebook</h3>
+<!--
+### Notebook 
+You can write code and run directly in the workbench through the notebook, using python or spark interpreter, and the results will be graphically displayed.
 
-<p>You can write code and run directly in the workbench through the notebook, using python or spark interpreter, and the results will be graphically displayed.</p>
 
-<h4>Submarine Spark Interpreter</h4>
+#### Submarine Spark Interpreter
+The submarine workbench has integrated the spark runtime environment. The data engineer can directly write spark or spark sql for data processing without any configuration.
 
-<p>The submarine workbench has integrated the spark runtime environment. The data engineer can directly write spark or spark sql for data processing without any configuration.</p>
+<img class="img-responsive" src="./assets/themes/submarine/img/spark_logo.jpg" width="140px" />
 
-<p><img class="img-responsive" src="./assets/themes/submarine/img/spark_logo.jpg" width="140px" /></p>
+Apache Submarine with Spark integration provides
 
-<p>Apache Submarine with Spark integration provides</p>
+- Automatic SparkContext and SQLContext injection
+- Provide the spark runtime environment through the docker image.
+- Canceling job and displaying its progress
 
-<ul>
-<li>Automatic SparkContext and SQLContext injection</li>
-<li>Provide the spark runtime environment through the docker image.</li>
-<li>Canceling job and displaying its progress</li>
-</ul>
+For the further information about Apache Spark in Apache Submarine, please see [Spark interpreter for Apache Submarine](#).
 
-<p>For the further information about Apache Spark in Apache Submarine, please see <a href="#">Spark interpreter for Apache Submarine</a>.</p>
+#### Python integration
+The submarine workbench has integrated the python runtime environment and a rich python library. Data scientists can directly write python code for algorithm development without any configuration.
 
-<h4>Python integration</h4>
+<img class="img-responsive" src="./assets/themes/submarine/img/python_logo.png" width="240px" />
 
-<p>The submarine workbench has integrated the python runtime environment and a rich python library. Data scientists can directly write python code for algorithm development without any configuration.</p>
-
-<p><img class="img-responsive" src="./assets/themes/submarine/img/python_logo.png" width="240px" /></p>
-
-<p>For the further information about Python in Apache Submarine, please see <a href="#">Python interpreter for Apache Submarine</a>.</p>
+For the further information about Python in Apache Submarine, please see [Python interpreter for Apache Submarine](#).
+-->
 
 <p><br /></p>
 
 <h2>Machine Learning Fromework</h2>
 
-<p>Submarine supports them in the form of plugins for different machine learning frameworks. Three machine learning frameworks, tensorflow, pytorch and mxnet, are currently supported.</p>
-
-<h3>Tensorflow</h3>
-
-<p>TODO</p>
-
-<h3>PyTorch</h3>
-
-<p>TODO</p>
-
-<h3>Mxnet</h3>
-
-<p>TODO</p>
+<p>Submarine supports them in the form of plugins for different machine learning frameworks. Three machine learning frameworks, tensorflow, pytorch are currently supported. (Working in progress: Horovod/MXNet)</p>
 
 <p><br /></p>
 
@@ -435,28 +359,28 @@ Data scientists can interactively access notebooks, submit/manage jobs, manage m
 
 <p>Submarine also designed to be resource management independent, no matter if you have Kubernetes, Apache Hadoop YARN or just a container service, you will be able to run Submarine on top it.</p>
 
-<h3>Kubernetes</h3>
-
-<p>Submarine developed a submarine operator to allow submarine to run in kubernetes.</p>
-
 <h3>YARN</h3>
 
 <p>Submarine can run in hadoop yarn with docker features</p>
 
-<h3>Docker</h3>
+<h3>Kubernetes (In-Progress)</h3>
+
+<p>Submarine developed a submarine operator to allow submarine to run in kubernetes.</p>
+
+<h3>Docker (In-Progress)</h3>
 
 <p>Submarine can also be run on one or more servers with the docker runtime environment installed.
 You only need to configure the server list in submarine-site.xml, submarine can automatically build these server groups into a cluster, and run submarine services and jobs in this cluster. This feature is very suitable for small-scale user scenarios.</p>
 
-<p><br /></p>
+<h2>Roadmaps</h2>
 
-<h2>100% Opensource</h2>
+<p>Want to learn more about roadmap and release plan of Submarine? Please go to <a href="https://cwiki.apache.org/confluence/display/SUBMARINE/Roadmap">roadmap</a></p>
 
 <p><img class="img-responsive" style="margin:0 auto; padding: 15px;" src="./assets/themes/submarine/img/asf_logo.png" width="250px"/></p>
 
-<p>Apache Submarine is Apache2 Licensed software. Please check out the <a href="http://git.apache.org/submarine.git">source repository</a> and <a href="./docs/latest/development/howtocontribute.html">how to contribute</a>.
+<p>Apache Submarine is Apache2 Licensed software. Please check out the <a href="https://github.com/apache/submarine">source repository</a> and <a href="/community/contributors.html">how to contribute</a>.
 Apache Submarine has a very active development community.
-Join to our <a href="https://submarine.apache.org/community.html">Mailing list</a> and report issues on <a href="https://issues.apache.org/jira/browse/SUBMARINE">Jira Issue tracker</a>.
+Join to our <a href="/community/contributors.html">Mailing list</a> and report issues on <a href="https://issues.apache.org/jira/browse/SUBMARINE">Jira Issue tracker</a>.
 </div>
 <br /></p>
 

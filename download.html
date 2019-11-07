@@ -67,7 +67,7 @@
       <a class="navbar-brand" href="/">
         <img src="/assets/themes/submarine/img/submarine_white_logo.png" style="margin-top: -6px;" width="80" alt="I'm submarine">
         <span style="margin-left: 0px;"> Apache Submarine </span>
-        <span style="margin-left: 4px; font-size: 16px; font-family: Arial;">0.4.0</span>
+        <!-- <span style="margin-left: 4px; font-size: 16px; font-family: Arial;">0.4.0</span> -->
       </a>
     </div>
     <nav class="navbar-collapse collapse" role="navigation">
@@ -75,7 +75,7 @@
         <li><a href="https://github.com/apache/submarine/blob/master/docs/helper/QuickStart.md">Quick Start</a></li>
 
         <!-- Download -->
-        <li><a href="https://github.com/apache/submarine/releases">Download</a></li>
+        <li><a href="/download.html">Download</a></li>
 
         <!-- Docs -->
         <!--li class="docs">
@@ -95,8 +95,8 @@
         <li class="docs">
           <a href="#" data-toggle="dropdown" class="dropdown-toggle">Community<b class="caret"></b></a>
           <ul class="dropdown-menu">
+            <li><a href="/community/contributors.html">Contributors</a></li>
             <li><a href="/community/member.html">Member</a></li>
-            <li><a href="https://github.com/apache/submarine/blob/master/docs/community/contributing.md">Contributors</a></li>
             <li><a href="https://github.com/apache/submarine">GitHub</a></li>
           </ul>
         </li>
@@ -111,6 +111,7 @@
             <li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
           </ul>
         </li>
+        <li><a href="https://cwiki.apache.org/confluence/display/SUBMARINE/Roadmap">Roadmap</a></li>
       </ul>
     </nav><!--/.navbar-collapse -->
   </div>
@@ -148,38 +149,20 @@ limitations under the License.
 <p>The latest release of Apache Submarine is <strong>0.3.0</strong>.</p>
 
 <ul>
-<li><p>0.3.0 released on Jan 23, 2019 (<a href="./releases/submarine-release-0.3.0.html">release notes</a>) (<a href="https://git-wip-us.apache.org/repos/asf?p=submarine.git;h=refs/tags/v0.3.0">git tag</a>)</p>
+<li><p>Apache Submarine 0.3.0 released on Nov 23, 2019 (<a href="https://github.com/apache/submarine/blob/master/docs/helper/release.md">release notes</a>) (<a href="#">git tag</a>)</p>
 
 <ul>
-<li>Binary package with all interpreters (<a href="../../docs/0.3.0/quickstart/install.html">Install guide</a>):
-<p><div class="btn btn-md btn-primary" onclick="ga('send', 'event', 'download', 'submarine-bin-all', '0.3.0'); window.location.href='http://www.apache.org/dyn/closer.cgi/submarine/submarine-0.3.0/submarine-0.3.0-bin-all.tgz'">submarine-0.3.0-bin-all.tgz</div> (947 MB,
-<a href="https://www.apache.org/dist/submarine/submarine-0.3.0/submarine-0.3.0-bin-all.tgz.asc">pgp</a>,
-<a href="https://www.apache.org/dist/submarine/submarine-0.3.0/submarine-0.3.0-bin-all.tgz.md5">md5</a>,
-<a href="https://www.apache.org/dist/submarine/submarine-0.3.0/submarine-0.3.0-bin-all.tgz.sha512">sha</a>)</p></li>
-<li>Binary package with Spark interpreter and interpreter net-install script (<a href="../../docs/0.3.0/usage/interpreter/installation.html">interpreter installation guide</a>):
-<p><div class="btn btn-md btn-primary" onclick="ga('send', 'event', 'download', 'submarine-bin-netinst', '0.3.0'); window.location.href='http://www.apache.org/dyn/closer.cgi/submarine/submarine-0.3.0/submarine-0.3.0-bin-netinst.tgz'">submarine-0.3.0-bin-netinst.tgz</div> (313 MB,
-<a href="https://www.apache.org/dist/submarine/submarine-0.3.0/submarine-0.3.0-bin-netinst.tgz.asc">pgp</a>,
-<a href="https://www.apache.org/dist/submarine/submarine-0.3.0/submarine-0.3.0-bin-netinst.tgz.md5">md5</a>,
-<a href="https://www.apache.org/dist/submarine/submarine-0.3.0/submarine-0.3.0-bin-netinst.tgz.sha512">sha</a>)</p></li>
+<li>Binary package (<a href="https://github.com/apache/submarine/blob/master/docs/helper/install.md">Install guide</a>):
+<p><div class="btn btn-md btn-primary" window.location.href='#'">submarine-0.3.0.tgz</div> (120 MB,
+<a href="#">checksum</a>,
+<a href="#">signature</a>,
+<a href="#">Announcement</a>)</p></li>
 <li>Source:
-<a style="cursor:pointer" onclick="ga('send', 'event', 'download', 'submarine-src', '0.3.0'); window.location.href='http://www.apache.org/dyn/closer.cgi/submarine/submarine-0.3.0/submarine-0.3.0.tgz'">submarine-0.3.0.tgz</a> (117 MB,
-<a href="https://www.apache.org/dist/submarine/submarine-0.3.0/submarine-0.3.0.tgz.asc">pgp</a>,
-<a href="https://www.apache.org/dist/submarine/submarine-0.3.0/submarine-0.3.0.tgz.md5">md5</a>,
-<a href="https://www.apache.org/dist/submarine/submarine-0.3.0/submarine-0.3.0.tgz.sha512">sha</a>)</li>
+<p><div class="btn btn-md btn-primary" window.location.href='#'">submarine-0.3.0-src.tgz</div> (12 MB,
+<a href="#">checksum</a>,
+<a href="#">signature</a>)</li>
 </ul></li>
 </ul>
-
-<h1>Using the official docker image</h1>
-
-<p>Make sure that <a href="https://www.docker.com/community-edition">docker</a> is installed in your local machine.  </p>
-
-<p>Use this command to launch Apache Submarine in a container.</p>
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -p 8080:8080 --rm --name submarine apache/submarine:0.3.0
-</code></pre></figure>
-<p>To persist <code>logs</code> and <code>notebook</code> directories, use the <a href="https://docs.docker.com/engine/reference/commandline/run/#mount-volume--v-read-only">volume</a> option for docker container.</p>
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -p 8080:8080 --rm -v $PWD/logs:/logs -v $PWD/notebook:/notebook -e submarine_LOG_DIR=&#39;/logs&#39; -e SUBMARINE_NOTEBOOK_DIR=&#39;/notebook&#39; --name submarine apache/submarine:0.8.0
-</code></pre></figure>
-<p>If you have trouble accessing <code>localhost:8080</code> in the browser, Please clear browser cache.</p>
 
 <h2>Verify the integrity of the files</h2>
 
@@ -187,34 +170,37 @@ limitations under the License.
 
 <h2>Build from source</h2>
 
-<p>For developers, to get latest <em>0.3.0-SNAPSHOT</em> check <a href="https://github.com/apache/submarine/blob/master/README.md">README</a>.</p>
+<p>For developers, to get latest <em>0.3.0-SNAPSHOT</em> check <a href="https://github.com/apache/submarine/blob/master/docs/development/BuildFromCode.md">README</a>.</p>
 
 <h2>Old releases</h2>
 
 <ul>
-<li><p>0.2.0 released on June 15, 2019 (<a href="./releases/submarine-release-0.2.0.html">release notes</a>)</p>
+<li><p>Apache Submarine 0.2.0 released on Jul 2, 2019</p>
 
 <ul>
-<li>Binary package with all interpreters:
-<a style="cursor:pointer" onclick="ga('send', 'event', 'download', 'submarine-bin-all', '0.2.0'); window.location.href='http://archive.apache.org/dist/submarine/submarine-0.2.0/submarine-0.2.0-bin-all.tgz'">submarine-0.2.0-bin-all.tgz</a> (111 MB,
-<a href="https://archive.apache.org/dist/submarine/submarine-0.2.0/submarine-0.2.0-bin-all.tgz.asc">pgp</a>,
-<a href="https://archive.apache.org/dist/submarine/submarine-0.2.0/submarine-0.2.0-bin-all.tgz.md5">md5</a>,
-<a href="https://archive.apache.org/dist/submarine/submarine-0.2.0/submarine-0.2.0-bin-all.tgz.sha512">sha</a>)</li>
-<li>Binary package with Spark interpreter and interpreter net-install script (<a href="../../docs/0.2.0/manual/interpreterinstallation.html">interpreter installation guide</a>):
-<a style="cursor:pointer" onclick="ga('send', 'event', 'download', 'submarine-bin-netinst', '0.2.0'); window.location.href='http://archive.apache.org/dist/submarine/submarine-0.2.0/submarine-0.2.0-bin-netinst.tgz'">submarine-0.2.0-bin-netinst.tgz</a> (245 MB,
-<a href="https://archive.apache.org/dist/submarine/submarine-0.2.0/submarine-0.2.0-bin-netinst.tgz.asc">pgp</a>,
-<a href="https://archive.apache.org/dist/submarine/submarine-0.2.0/submarine-0.2.0-bin-netinst.tgz.md5">md5</a>,
-<a href="https://archive.apache.org/dist/submarine/submarine-0.2.0/submarine-0.2.0-bin-netinst.tgz.sha512">sha</a>)</li>
+<li>Binary package with submarine:
+<a style="cursor:pointer" window.location.href='https://www.apache.org/dyn/closer.cgi/hadoop/submarine/submarine-0.2.0/hadoop-submarine-0.2.0.tar.gz'">hadoop-submarine-0.2.0.tar.gz</a> (111 MB,
+<a href="https://dist.apache.org/repos/dist/release/hadoop/submarine/submarine-0.2.0/hadoop-submarine-0.2.0.tar.gz.mds">checksum</a>,
+<a href="https://dist.apache.org/repos/dist/release/hadoop/submarine/submarine-0.2.0/hadoop-submarine-0.2.0.tar.gz.asc">signature</a>,
+<a href="http://hadoop.apache.org/submarine/release/0.2.0/">Announcement</a>)</li>
 <li>Source:
-<a style="cursor:pointer" onclick="ga('send', 'event', 'download', 'submarine-src', '0.2.0'); window.location.href='http://archive.apache.org/dist/submarine/submarine-0.2.0/submarine-0.2.0.tgz'">submarine-0.2.0.tgz</a> (1.4 MB,
-<a href="https://archive.apache.org/dist/submarine/submarine-0.2.0/submarine-0.2.0.tgz.asc">pgp</a>,
-<a href="https://archive.apache.org/dist/submarine/submarine-0.2.0/submarine-0.2.0.tgz.md5">md5</a>,
-<a href="https://archive.apache.org/dist/submarine/submarine-0.2.0/submarine-0.2.0.tgz.sha512">sha</a>)</li>
-</ul>
+<a style="cursor:pointer" window.location.href='https://www.apache.org/dyn/closer.cgi/hadoop/submarine/submarine-0.2.0/hadoop-submarine-0.2.0-src.tar.gz'">hadoop-submarine-0.2.0-src.tar.gz</a> (1.4 MB,
+<a href="https://dist.apache.org/repos/dist/release/hadoop/submarine/submarine-0.2.0/hadoop-submarine-0.2.0-src.tar.gz.mds">checksum</a>,
+<a href="https://dist.apache.org/repos/dist/release/hadoop/submarine/submarine-0.2.0/hadoop-submarine-0.2.0-src.tar.gz.asc">signature</a>)</li>
+</ul></li>
+<li><p>Apache Submarine 0.1.0 released on Jan 16, 2019</p>
 
-<blockquote style="margin-top: 10px;">
-  <p><strong>Note</strong>: From submarine version 0.2.0.</p>
-</blockquote></li>
+<ul>
+<li>Binary package with submarine:
+<a style="cursor:pointer" window.location.href='https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.2.0/hadoop-3.2.0.tar.gz'">submarine-0.2.0-bin-all.tgz</a> (97 MB,
+<a href="https://www.apache.org/dist/hadoop/common/hadoop-3.2.0/hadoop-3.2.0.tar.gz.mds">checksum</a>,
+<a href="https://www.apache.org/dist/hadoop/common/hadoop-3.2.0/hadoop-3.2.0.tar.gz.asc">signature</a>,
+<a href="https://hadoop.apache.org/docs/r3.2.0/index.html">Announcement</a>)</li>
+<li>Source:
+<a style="cursor:pointer" window.location.href='https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.2.0/hadoop-3.2.0-src.tar.gz'">submarine-hadoop-3.2.0-src.tar.gz</a> (1.1 MB,
+<a href="https://www.apache.org/dist/hadoop/common/hadoop-3.2.0/hadoop-3.2.0-src.tar.gz.mds">checksum</a>,
+<a href="https://www.apache.org/dist/hadoop/common/hadoop-3.2.0/hadoop-3.2.0-src.tar.gz.asc">signature</a>)</li>
+</ul></li>
 </ul>
 
 <p><p /></p>
