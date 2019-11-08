@@ -15,4 +15,4 @@ github:
     # enable merge button:
     merge:   false
     # disable rebase button:
-    rebase:  true
+    rebase:  false
