@@ -11,4 +11,4 @@ github:
   enabled_merge_buttons:
     squash: true
     merge: true
-    rebase: true
+    rebase: false
