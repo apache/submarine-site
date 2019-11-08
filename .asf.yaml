@@ -8,8 +8,7 @@ github:
     - apache
     - submarine
     - web-site
-    - ai
   enabled_merge_buttons:
-    squash: false
-    merge: false
+    squash: true
+    merge: true
     rebase: true
