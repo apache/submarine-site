@@ -9,6 +9,6 @@ github:
     - submarine
     - web-site
   enabled_merge_buttons:
-    squash: true
+    squash: false
     merge: false
     rebase: false
