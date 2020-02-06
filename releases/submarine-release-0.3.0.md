@@ -37,8 +37,3 @@ You can visit [issue tracker](https://issues.apache.org/jira/secure/ReleaseNote.
 
 
 <br />
-### Contributors
-
-This release would not be possible without the following community members' contributions:
-
-Xun Liu
