@@ -24,12 +24,12 @@ limitations under the License.
 The Apache Submarine community is pleased to announce the availability of the 0.3.0 release.
 
 The community put significant effort into improving Apache Submarine since the last release.
-46 patches for improvements and bug fixes.
+196 patches for improvements and bug fixes.
 
-We encourage to [download](../../download.html) the latest release. Feedback through the [mailing lists](../../community.html) is very welcome.
+We encourage to [download](../../download.html) the latest release. Feedback through the [mailing lists](../../community/contributors.html#mailing-list) is very welcome.
 
 <br />
-You can visit [issue tracker](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12343240&styleName=&projectId=12316221) for full list of issues that are resolved.
+You can visit [issue tracker](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12322824&version=12345556) for full list of issues that are resolved.
 
 
 <br />
