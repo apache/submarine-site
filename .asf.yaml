@@ -4,10 +4,6 @@ publish:
 github:
   description: "Apache Submarine"
   homepage: https://submarine.apache.org/
-  labels:
-    - apache
-    - submarine
-    - web-site
   enabled_merge_buttons:
     squash: true
     merge: false
