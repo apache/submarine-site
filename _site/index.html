@@ -1,0 +1,402 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Apache Submarine</title>
+    
+    <meta name="author" content="The Apache Software Foundation">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="/assets/themes/submarine/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/themes/submarine/css/style.css?body=1" rel="stylesheet" type="text/css">
+    <link href="/assets/themes/submarine/css/syntax.css" rel="stylesheet"  type="text/css" media="screen" /> 
+    <!-- Le fav and touch icons -->
+    <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/themes/submarine/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/themes/submarine/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/themes/submarine/img/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="/assets/themes/submarine/img/favicon/favicon.ico">
+    <link rel="manifest" href="/assets/themes/submarine/img/favicon/manifest.json">
+    <link rel="mask-icon" href="/assets/themes/submarine/img/favicon/safari-pinned-tab.svg" color="#438bc9">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
+    <script src="/assets/themes/submarine/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/themes/submarine/js/docs.js"></script>
+    <script src="/assets/themes/submarine/js/anchor.min.js"></script>
+    <script src="/assets/themes/submarine/js/moment.min.js"></script>
+    <script src="/assets/themes/submarine/js/helium.controller.js"></script>
+    <script src="/assets/themes/submarine/js/medium.controller.js"></script>
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+  </head>
+
+  <body>
+    
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img src="/assets/themes/submarine/img/submarine_white_logo.png" style="margin-top: -6px;" width="80" alt="I'm submarine">
+        <span style="margin-left: 0px;"> Apache Submarine </span>
+        <!-- <span style="margin-left: 4px; font-size: 16px; font-family: Arial;">0.4.0</span> -->
+      </a>
+    </div>
+    <nav class="navbar-collapse collapse" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://github.com/apache/submarine/blob/master/docs/helper/QuickStart.md">Quick Start</a></li>
+
+        <!-- Download -->
+        <li><a href="/download.html">Download</a></li>
+
+        <!-- Docs -->
+        <!--li class="docs">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Docs<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="title"><span><b>Release</b><span></li>
+            <li><a href="https://hadoop.apache.org/submarine/docs/0.2.0/Index/">0.2.0</a></li>
+            <li><a href="http://hadoop.apache.org/submarine/docs/">0.1.0</a></li>
+            <li role="separator" class="divider"></li>
+              <li class="title"><span><b>Snapshot&nbsp;(development)</b><span></li>
+            <li><a href="/docs/0.3.0-SNAPSHOT">0.3.0-SNAPSHOT</a></li>
+          </ul>
+        </li-->
+
+        <li><a href="https://github.com/apache/submarine/tree/master/docs">Docs</a></li>
+
+        <li class="docs">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Community<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/community/contributors.html">Contributors</a></li>
+            <li><a href="/community/member.html">Member</a></li>
+            <li><a href="https://github.com/apache/submarine">GitHub</a></li>
+          </ul>
+        </li>
+          <!-- Apache -->
+        <li class="docs">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Apache<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://www.apache.org/foundation/how-it-works.html">Apache Software Foundation</a></li>
+            <li><a href="http://www.apache.org/licenses/">Apache License</a></li>
+            <li><a href="http://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+            <li><a href="/assets.html">Assets</a></li>
+            <li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
+          </ul>
+        </li>
+        <li><a href="https://cwiki.apache.org/confluence/display/SUBMARINE/Roadmap">Roadmap</a></li>
+      </ul>
+    </nav><!--/.navbar-collapse -->
+  </div>
+</div>
+
+
+<div class="jumbotron">
+  <div class="container" style="padding-bottom: 5px; margin-top: -15px;">
+    <div>
+      <div class="submarine">
+        <div class="submarine2"></div>
+      </div>
+    </div>
+    <div style="margin-top: -250px; position: relative;">
+      <h1 class="submarine-title">Apache Submarine</h1>
+      <p class="description">
+        Apache Submarine is a unified AI platform which allows engineers and data scientists to run Machine Learning 
+        and Deep Learning workload in distributed cluster.
+      </p>
+    </div>
+    <div class="border row">
+      <div class="col-md-12 col-sm-12 col-xs-12 text-center newBtn" style="margin-top:8px;">
+        <a href="https://github.com/apache/submarine/blob/master/docs/helper/QuickStart.md" class="btn btn-primary btn-lg" role="button"
+           style="margin:5px 25px 5px 25px;font-size:15px;">
+          GET STARTED
+        </a>
+      <a href="/download.html" class="btn btn-primary btn-lg" role="button"
+           style="margin:5px 25px 5px 25px;font-size:15px;">
+          DOWNLOAD
+        </a>
+      <a href="https://cwiki.apache.org/confluence/display/SUBMARINE/Roadmap" class="btn btn-primary btn-lg" role="button"
+           style="margin:5px 25px 5px 25px;font-size:15px;">
+          ROADMAP
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+
+<div class="tech_deploy">
+  <div class="container">
+    <h2>Technologies</h2>
+    <div class="border row">
+      <div class="border col-md-4 col-sm-4" style="height:200px;">
+        <div class="panel-content">
+          <label class="_default-text" style="margin-top:20px;">
+            <img src="./assets/themes/submarine/img/spark-flink.png" width="290px">
+          </label>
+          <label class="_hover-text">
+            <div style="min-height:140px; padding: 10px;">
+              Submarine supports data processing and algorithm development using spark & python through notebook.
+            </div>
+            <a href="#" class="panel-button">USE NOW <span class="glyphicon glyphicon-chevron-right"></span></a>
+          </label>
+        </div>
+      </div>
+       <div class="border col-md-4 col-sm-4" style="height:200px;">
+         <div class="panel-content">
+           <label class="_default-text" style="margin-top: 20px;">
+             <img src="./assets/themes/submarine/img/tf-pytorch.png" width="290px">
+           </label>
+           <label class="_hover-text">
+             <div style="min-height:140px; padding: 20px 10px 10px 10px;">
+               Submarine supports multiple machine learning frameworks for model training.
+             </div>
+             <a href="#" class="panel-button">USE NOW <span class="glyphicon glyphicon-chevron-right"></span></a>
+           </label>
+         </div>
+       </div>
+      <div class="border col-md-4 col-sm-4" style="height:200px;">
+        <div class="panel-content">
+          <label class="_default-text" style="margin-top: 20px;">
+            <img src="./assets/themes/submarine/img/yarn-k8s.png" width="290px">
+          </label>
+          <label class="_hover-text">
+            <div style="min-height:140px; padding: 20px 10px 10px 10px;">
+              Submarine supports Yarn, Kubernetes, Docker with Resource Scheduling.
+            </div>
+            <a href="#" class="panel-button">USE NOW <span class="glyphicon glyphicon-chevron-right"></span></a>
+          </label>                     
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+<!--
+      <p class="bottom-text">
+        See more details in Submarine more feature.
+        <a href="#">LEARN MORE <span class="glyphicon glyphicon-chevron-right" style="font-size:15px;"></span></a>
+      </p>
+-->
+    </div>
+    <hr />
+    <div class="border row">
+      <h2 style="padding-bottom: 8px;">ONE PLATFORM</h2>
+      <div class="border col-md-6 col-sm-6">
+        <div class="panel-content-user">
+          <label style="width: 100%;">
+            <div style="position:relative;width:100%;text-align:center;">
+              <span class="user-icon fa fa-user"></span>
+              <span class="title-text">End-To-End</span>
+            </div>
+          </label>
+          <label class="content-text">
+            Supports data scientists and data engineers to finish their jobs on the same platform without frequently switching their toolsets.<br/>
+            <a href="#" class="user-button">LEARN MORE</a>
+          </label>
+        </div>
+      </div>
+      <div class="border col-md-6 col-sm-6">
+        <div class="panel-content-user">
+          <label style="width: 100%;">
+            <div style="position:relative;width:100%;text-align:center;">
+              <span class="user-icon fa fa-users"></span>
+              <span class="title-text">Resource Independent</span>
+            </div>
+          </label>
+          <label class="content-text">
+            No matter if you have Apache Hadoop YARN, K8s, or just a container service, you will be able to run Submarine on top it.<br/>
+            <a href="#" class="user-button">LEARN MORE</a>
+          </label>                 
+        </div>
+      </div>
+    <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+<!--
+      <p class="bottom-text">
+        See more details in Submarine more feature.
+        <a href="#">LEARN MORE <span class="glyphicon glyphicon-chevron-right" style="font-size:15px;"></span></a>
+      </p>
+-->
+    </div>
+    </div>
+  </div>
+</div>
+ 
+
+
+
+    <div class="content">
+      
+
+<!--<div class="hero-unit Apache Submarine">
+  <h1> <small>Less Development, More analysis!</small></h1>
+</div>
+-->
+
+<div class="row">
+  <div class="col-md-12">
+    <!--
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<p><br />
+<h1 class="index-header">
+  What is Apache Submarine?
+</h1></p>
+
+<p><br /><br /><br />
+<div class="row">
+  <div class="col-md-6" style="padding-right:0">
+    <h1 style="color:#4c555a">ONE PLATFORM</h1>
+    <p>
+      Submarine allow Data Scientists to create end-to-end machine learning workflow. (Working in progress)
+    </p>
+    <ul style="list-style-type: none;padding-left:10px;" >
+      <li style="font-size:18px; margin: 5px;"><span class="glyphicon glyphicon-transfer" style="margin-right:10px"></span> Data Analytics</li>
+      <li style="font-size:18px; margin: 5px;"><span class="glyphicon glyphicon-eye-open" style="margin-right:10px"></span> Algorithm development</li>
+      <li style="font-size:18px; margin: 5px;"><span class="glyphicon glyphicon-dashboard" style="margin-right:10px"></span> Workflow</li>
+      <li style="font-size:18px; margin: 5px;"><span class="glyphicon glyphicon-wrench" style="margin-right:10px"></span> Job scheduling</li>
+      <li style="font-size:18px; margin: 5px;"><span class="glyphicon glyphicon-cloud" style="margin-right:10px"></span> Model Serving</li>
+    </ul>
+  </div>
+  <div class="col-md-6" style="padding:0">
+    <img class="img-responsive" style="border: 1px solid #ecf0f1;" src="./assets/themes/submarine/img/architecture.png" />
+  </div>
+</div></p>
+
+<p><br /></p>
+
+<h2>Workbench</h2>
+
+<p><a href="https://github.com/apache/submarine/tree/master/docs/workbench">Apache Submarine Workbench</a> (working in progress) is a WEB system for data scientists. 
+Data scientists can interactively access notebooks, submit/manage jobs, manage models, create model training workflows, access data sets, and more through Submarine Workbench.</p>
+
+<p><img class="img-responsive" width="900px" style="margin:0 auto; padding: 26px;" src="./assets/themes/submarine/img/workspace-project.png" /></p>
+
+<!--
+### Notebook 
+You can write code and run directly in the workbench through the notebook, using python or spark interpreter, and the results will be graphically displayed.
+
+
+#### Submarine Spark Interpreter
+The submarine workbench has integrated the spark runtime environment. The data engineer can directly write spark or spark sql for data processing without any configuration.
+
+<img class="img-responsive" src="./assets/themes/submarine/img/spark_logo.jpg" width="140px" />
+
+Apache Submarine with Spark integration provides
+
+- Automatic SparkContext and SQLContext injection
+- Provide the spark runtime environment through the docker image.
+- Canceling job and displaying its progress
+
+For the further information about Apache Spark in Apache Submarine, please see [Spark interpreter for Apache Submarine](#).
+
+#### Python integration
+The submarine workbench has integrated the python runtime environment and a rich python library. Data scientists can directly write python code for algorithm development without any configuration.
+
+<img class="img-responsive" src="./assets/themes/submarine/img/python_logo.png" width="240px" />
+
+For the further information about Python in Apache Submarine, please see [Python interpreter for Apache Submarine](#).
+-->
+
+<p><br /></p>
+
+<h2>Machine Learning Fromework</h2>
+
+<p>Submarine supports them in the form of plugins for different machine learning frameworks. Three machine learning frameworks, tensorflow, pytorch are currently supported. (Working in progress: Horovod/MXNet)</p>
+
+<p><br /></p>
+
+<h2>Resource Management Independent</h2>
+
+<p>Submarine also designed to be resource management independent, no matter if you have Kubernetes, Apache Hadoop YARN or just a container service, you will be able to run Submarine on top it.</p>
+
+<h3>YARN</h3>
+
+<p>Submarine can run in hadoop yarn with docker features</p>
+
+<h3>Kubernetes (In-Progress)</h3>
+
+<p>Submarine developed a submarine operator to allow submarine to run in kubernetes.</p>
+
+<h3>Docker (In-Progress)</h3>
+
+<p>Submarine can also be run on one or more servers with the docker runtime environment installed.
+You only need to configure the server list in submarine-site.xml, submarine can automatically build these server groups into a cluster, and run submarine services and jobs in this cluster. This feature is very suitable for small-scale user scenarios.</p>
+
+<h2>Roadmaps</h2>
+
+<p>Want to learn more about roadmap and release plan of Submarine? Please go to <a href="https://cwiki.apache.org/confluence/display/SUBMARINE/Roadmap">roadmap</a></p>
+
+<p><img class="img-responsive" style="margin:0 auto; padding: 15px;" src="./assets/themes/submarine/img/asf_logo.png" width="250px"/></p>
+
+<p>Apache Submarine is Apache2 Licensed software. Please check out the <a href="https://github.com/apache/submarine">source repository</a> and <a href="/community/contributors.html">how to contribute</a>.
+Apache Submarine has a very active development community.
+Join to our <a href="/community/contributors.html">Mailing list</a> and report issues on <a href="https://issues.apache.org/jira/browse/SUBMARINE">Jira Issue tracker</a>.
+</div>
+<br /></p>
+
+  </div>
+</div>
+
+
+    </div>
+
+    
+
+
+    
+    <footer>
+      <!-- <p>&copy; 2020 The Apache Software Foundation</p>-->
+    </footer>
+  </body>
+</html>
+
