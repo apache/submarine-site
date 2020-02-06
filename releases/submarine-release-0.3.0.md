@@ -24,7 +24,11 @@ limitations under the License.
 The Apache Submarine community is pleased to announce the availability of the 0.3.0 release.
 
 The community put significant effort into improving Apache Submarine since the last release.
-196 patches for improvements and bug fixes.
+196 patches for improvements and bug fixes. The highlighted features are as follows:
+
+- Mini-submarine (YARN)
+- Basic Tensorflow job submission to k8s through submarine-server RESTful API
+- Job submission on YARN through submarine-server RPC protocol
 
 We encourage to [download](../../download.html) the latest release. Feedback through the [mailing lists](../../community/contributors.html#mailing-list) is very welcome.
 
