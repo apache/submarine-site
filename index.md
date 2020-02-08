@@ -106,6 +106,6 @@ Want to learn more about roadmap and release plan of Submarine? Please go to [ro
 
 Apache Submarine is Apache2 Licensed software. Please check out the [source repository](https://github.com/apache/submarine) and [how to contribute](/community/contributors.html).
 Apache Submarine has a very active development community.
-Please join our [Mailing list](/community/contributors.html) and report issues on [Jira Issue tracker](https://issues.apache.org/jira/browse/SUBMARINE).
+Join our [Mailing list](/community/contributors.html) and report issues on [Jira Issue tracker](https://issues.apache.org/jira/browse/SUBMARINE).
 </div>
 <br />
