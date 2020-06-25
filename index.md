@@ -89,7 +89,7 @@ Submarine also designed to be resource management independent, no matter if you 
 
 Submarine can run in hadoop yarn with docker features
 
-### Kubernetes (In-Progress)
+### Kubernetes
 
 Submarine developed a submarine operator to allow submarine to run in kubernetes.
 
