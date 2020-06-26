@@ -70,37 +70,39 @@
         <!-- <span style="margin-left: 4px; font-size: 16px; font-family: Arial;">0.4.0</span> -->
       </a>
     </div>
+
     <nav class="navbar-collapse collapse" role="navigation">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://github.com/apache/submarine/blob/master/docs/helper/QuickStart.md">Quick Start</a></li>
+        <!-- Quick Start -->
+        <li class="docs">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Quick Start<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://github.com/apache/submarine/blob/master/docs/userdocs/yarn">Submarine on YARN</a></li>
+            <li><a href="https://github.com/apache/submarine/blob/master/docs/userdocs/k8s">Submarine on K8s</a></li>
+          </ul>
+        </li>
 
         <!-- Download -->
         <li><a href="/download.html">Download</a></li>
 
         <!-- Docs -->
-        <!--li class="docs">
-          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Docs<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li class="title"><span><b>Release</b><span></li>
-            <li><a href="https://hadoop.apache.org/submarine/docs/0.2.0/Index/">0.2.0</a></li>
-            <li><a href="http://hadoop.apache.org/submarine/docs/">0.1.0</a></li>
-            <li role="separator" class="divider"></li>
-              <li class="title"><span><b>Snapshot&nbsp;(development)</b><span></li>
-            <li><a href="/docs/0.3.0-SNAPSHOT">0.3.0-SNAPSHOT</a></li>
-          </ul>
-        </li-->
-
         <li><a href="https://github.com/apache/submarine/tree/master/docs">Docs</a></li>
 
+        <!-- GitHub -->
+        <li>
+          <a href="https://github.com/apache/submarine">GitHub</a>
+        </li>
+
+        <!-- Community -->
         <li class="docs">
           <a href="#" data-toggle="dropdown" class="dropdown-toggle">Community<b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="/community/contributors.html">Contributors</a></li>
             <li><a href="/community/member.html">Member</a></li>
-            <li><a href="https://github.com/apache/submarine">GitHub</a></li>
           </ul>
         </li>
-          <!-- Apache -->
+
+        <!-- Apache -->
         <li class="docs">
           <a href="#" data-toggle="dropdown" class="dropdown-toggle">Apache<b class="caret"></b></a>
           <ul class="dropdown-menu">
@@ -111,9 +113,8 @@
             <li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
           </ul>
         </li>
-        <li><a href="https://cwiki.apache.org/confluence/display/SUBMARINE/Roadmap">Roadmap</a></li>
       </ul>
-    </nav><!--/.navbar-collapse -->
+    </nav>
   </div>
 </div>
 
