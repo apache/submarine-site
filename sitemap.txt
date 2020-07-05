@@ -14,5 +14,6 @@ https://submarine.apache.org//screenshots
 https://submarine.apache.org//sitemap.txt
 https://submarine.apache.org//releases/submarine-release-0.2.0
 https://submarine.apache.org//releases/submarine-release-0.3.0
+https://submarine.apache.org//releases/submarine-release-0.4.0
 https://submarine.apache.org//supported_interpreters
 https://submarine.apache.org//contribution/webapplication
