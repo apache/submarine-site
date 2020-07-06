@@ -41,6 +41,8 @@ The latest release of Apache Submarine is **0.4.0**.
       * [mini-submarine](https://hub.docker.com/layers/apache/submarine/mini-0.4.0/images/sha256-3dd49054bf8a91521f5743c675278d626a5fa568e91651c67867b8ba6ceba340) `docker pull apache/submarine:mini-0.4.0`
       * [submarine server](https://hub.docker.com/layers/apache/submarine/server-0.4.0/images/sha256-9e9775e0ed2ac9d4b108dd747dfb4f4fc27cee0fdd19501e1f53db30d966a3db) `docker pull apache/submarine:server-0.4.0`
       * [submarine database](https://hub.docker.com/layers/apache/submarine/database-0.4.0/images/sha256-5edf4aac2c14e14f78a9955bd84757879e1c05266c1edd5a7d5ef08b6359a400) `docker pull apache/submarine:database-0.4.0`
+    * SDK:
+      * [PySubmarine](https://pypi.org/project/apache-submarine/0.4.0/) `pip install apache-submarine==0.4.0`
 
 ## Verify the integrity of the files
 
