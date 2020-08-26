@@ -31,32 +31,38 @@ The Submarine’s active Project Management Committee contains (Ranking by lette
     <th style="width: 205px;">timezone</th>
   </tr>
   <tr style="width: 100%;">
-    <td style="width: 205px; vertical-align: middle; text-align: center;">Keqiu Hu</td>
-    <td style="width: 205px; vertical-align: middle; text-align: center;">Keqiu Hu</td>
-    <td style="width: 205px; vertical-align: middle; text-align: center;">Linkedin</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">khu</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/oliverhu"><div style="height:100%;width:100%">Keqiu Hu</div></a></td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">LinkedIn</td>
     <td style="width: 205px; vertical-align: middle; text-align: center;">-8</td>
   </tr>
   <tr style="width: 100%;">
     <td style="width: 205px; vertical-align: middle; text-align: center;">liuxun</td>
     <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/liuxunorg"><div style="height:100%;width:100%">Xun Liu</div></a></td>
-    <td style="width: 205px; vertical-align: middle; text-align: center;">PingCAP</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">DiDi</td>
     <td style="width: 205px; vertical-align: middle; text-align: center;">+8</td>
   </tr>
   <tr style="width: 100%;">
     <td style="width: 205px; vertical-align: middle; text-align: center;">wangda</td>
-    <td style="width: 205px; vertical-align: middle; text-align: center;">Wangda Tan</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/wangdatan"><div style="height:100%;width:100%">Wangda Tan</div></a></td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">Cloudera</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">-8</td>
+  </tr>
+  <tr style="width: 100%;">
+    <td style="width: 205px; vertical-align: middle; text-align: center;">weichiu</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/jojochuang"><div style="height:100%;width:100%">Wei-Chiu Chuang</div></a></td>
     <td style="width: 205px; vertical-align: middle; text-align: center;">Cloudera</td>
     <td style="width: 205px; vertical-align: middle; text-align: center;">-8</td>
   </tr>
   <tr style="width: 100%;">
     <td style="width: 205px; vertical-align: middle; text-align: center;">zhouquan</td>
     <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/yuanzac"><div style="height:100%;width:100%">Zac Zhou</div></a></td>
-    <td style="width: 205px; vertical-align: middle; text-align: center;">Netease</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">Ant Group</td>
     <td style="width: 205px; vertical-align: middle; text-align: center;">+8</td>
   </tr>
   <tr style="width: 100%;">
     <td style="width: 205px; vertical-align: middle; text-align: center;">ztang</td>
-    <td style="width: 205px; vertical-align: middle; text-align: center;">Zhankun Tang</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/tangzhankun"><div style="height:100%;width:100%">Zhankun Tang</div></a></td>
     <td style="width: 205px; vertical-align: middle; text-align: center;">Cloudera</td>
     <td style="width: 205px; vertical-align: middle; text-align: center;">+8</td>
   </tr>
@@ -76,33 +82,57 @@ The Submarine’s active Committers contains (Ranking by letter):
     <th style="width: 205px;">timezone</th>
   </tr>
   <tr style="width: 100%;">
-    <td style="width: 205px; vertical-align: middle; text-align: center;">Keqiu Hu</td>
-    <td style="width: 205px; vertical-align: middle; text-align: center;">Keqiu Hu</td>
-    <td style="width: 205px; vertical-align: middle; text-align: center;">Linkedin</td>
-    <td style="width: 205px; vertical-align: middle; text-align: center;">-8</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">jiwq</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/jiwq"><div style="height:100%;width:100%">Wanqiang Ji</div></a></td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">JD.com</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">+8</td>
   </tr>
   <tr style="width: 100%;">
-    <td style="width: 205px; vertical-align: middle; text-align: center;">Yanbo Liang</td>
-    <td style="width: 205px; vertical-align: middle; text-align: center;">Yanbo Liang</td>
-    <td style="width: 205px; vertical-align: middle; text-align: center;">Facebook</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">kaihsun</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/kevin85421"><div style="height:100%;width:100%">Kai-Hsun Chen</div></a></td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">Academia Sinica</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">+8</td>
+  </tr>
+  <tr style="width: 100%;">
+    <td style="width: 205px; vertical-align: middle; text-align: center;">khu</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/oliverhu"><div style="height:100%;width:100%">Keqiu Hu</div></a></td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">LinkedIn</td>
     <td style="width: 205px; vertical-align: middle; text-align: center;">-8</td>
   </tr>
   <tr style="width: 100%;">
     <td style="width: 205px; vertical-align: middle; text-align: center;">liuxun</td>
     <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/liuxunorg"><div style="height:100%;width:100%">Xun Liu</div></a></td>
-    <td style="width: 205px; vertical-align: middle; text-align: center;">PingCAP</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">DiDi</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">+8</td>
+  </tr>
+  <tr style="width: 100%;">
+    <td style="width: 205px; vertical-align: middle; text-align: center;">pingsutw</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/pingsutw"><div style="height:100%;width:100%">Kevin Su</div></a></td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">NCKU</td>
     <td style="width: 205px; vertical-align: middle; text-align: center;">+8</td>
   </tr>
   <tr style="width: 100%;">
     <td style="width: 205px; vertical-align: middle; text-align: center;">wangda</td>
-    <td style="width: 205px; vertical-align: middle; text-align: center;">Wangda Tan</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/wangdatan"><div style="height:100%;width:100%">Wangda Tan</div></a></td>
     <td style="width: 205px; vertical-align: middle; text-align: center;">Cloudera</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">-8</td>
+  </tr>
+  <tr style="width: 100%;">
+    <td style="width: 205px; vertical-align: middle; text-align: center;">weichiu</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/jojochuang"><div style="height:100%;width:100%">Wei-Chiu Chuang</div></a></td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">Cloudera</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">-8</td>
+  </tr>
+  <tr style="width: 100%;">
+    <td style="width: 205px; vertical-align: middle; text-align: center;">yliang</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/yanboliang"><div style="height:100%;width:100%">Yanbo Liang</div></a></td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">Facebook</td>
     <td style="width: 205px; vertical-align: middle; text-align: center;">-8</td>
   </tr>
   <tr style="width: 100%;">
     <td style="width: 205px; vertical-align: middle; text-align: center;">zhouquan</td>
     <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/yuanzac"><div style="height:100%;width:100%">Zac Zhou</div></a></td>
-    <td style="width: 205px; vertical-align: middle; text-align: center;">Netease</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;">Ant Group</td>
     <td style="width: 205px; vertical-align: middle; text-align: center;">+8</td>
   </tr>
   <tr style="width: 100%;">
@@ -113,7 +143,7 @@ The Submarine’s active Committers contains (Ranking by letter):
   </tr>
   <tr style="width: 100%;">
     <td style="width: 205px; vertical-align: middle; text-align: center;">ztang</td>
-    <td style="width: 205px; vertical-align: middle; text-align: center;">Zhankun Tang</td>
+    <td style="width: 205px; vertical-align: middle; text-align: center;"><a href="https://github.com/tangzhankun"><div style="height:100%;width:100%">Zhankun Tang</div></a></td>
     <td style="width: 205px; vertical-align: middle; text-align: center;">Cloudera</td>
     <td style="width: 205px; vertical-align: middle; text-align: center;">+8</td>
   </tr>
