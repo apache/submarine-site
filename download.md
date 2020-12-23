@@ -26,23 +26,24 @@ under the License.
 
 # Download Apache Submarine
 
-The latest release of Apache Submarine is **0.4.0**.
+The latest release of Apache Submarine is **0.5.0**.
 
-  - Apache Submarine 0.4.0 released on Jul 05, 2020 ([release notes](./releases/submarine-release-0.4.0.html)) ([git tag](https://github.com/apache/submarine/tree/rel/release-0.4.0))
+  - Apache Submarine 0.5.0 released on Dec 17, 2020 ([release notes](./releases/submarine-release-0.5.0.html)) ([git tag](https://github.com/apache/submarine/tree/rel/release-0.5.0))
     * Binary package:
     <p>
-      <div class="btn btn-md btn-primary" onclick="window.location.href='https://www.apache.org/dyn/closer.cgi/submarine/submarine-0.4.0/submarine-dist-0.4.0-hadoop-2.9.tar.gz'">submarine-dist-0.4.0-hadoop-2.9.tar.gz</div> (642 MB, [checksum](https://www.apache.org/dist/submarine/submarine-0.4.0/submarine-dist-0.4.0-hadoop-2.9.tar.gz.sha512), [signature](https://www.apache.org/dist/submarine/submarine-0.4.0/submarine-dist-0.4.0-hadoop-2.9.tar.gz.asc))
+      <div class="btn btn-md btn-primary" onclick="window.location.href='https://www.apache.org/dyn/closer.cgi/submarine/submarine-0.5.0/submarine-dist-0.5.0-hadoop-2.9.tar.gz'">submarine-dist-0.5.0-hadoop-2.9.tar.gz</div> (505 MB, [checksum](https://www.apache.org/dist/submarine/submarine-0.5.0/submarine-dist-0.5.0-hadoop-2.9.tar.gz.sha512), [signature](https://www.apache.org/dist/submarine/submarine-0.5.0/submarine-dist-0.5.0-hadoop-2.9.tar.gz.asc))
     </p>
     * Source:
     <p>
-      <div class="btn btn-md btn-primary" onclick="window.location.href='https://www.apache.org/dyn/closer.cgi/submarine/submarine-0.4.0/submarine-dist-0.4.0-src.tar.gz'">submarine-dist-0.4.0-src.tar.gz</div> (14 MB, [checksum](https://www.apache.org/dist/submarine/submarine-0.4.0/submarine-dist-0.4.0-src.tar.gz.sha512), [signature](https://www.apache.org/dist/submarine/submarine-0.4.0/submarine-dist-0.4.0-src.tar.gz.asc))
+      <div class="btn btn-md btn-primary" onclick="window.location.href='https://www.apache.org/dyn/closer.cgi/submarine/submarine-0.5.0/submarine-dist-0.5.0-src.tar.gz'">submarine-dist-0.5.0-src.tar.gz</div> (5.0 MB, [checksum](https://www.apache.org/dist/submarine/submarine-0.5.0/submarine-dist-0.5.0-src.tar.gz.sha512), [signature](https://www.apache.org/dist/submarine/submarine-0.5.0/submarine-dist-0.5.0-src.tar.gz.asc))
     </p>
     * Docker images:
-      * [mini-submarine](https://hub.docker.com/layers/apache/submarine/mini-0.4.0/images/sha256-3dd49054bf8a91521f5743c675278d626a5fa568e91651c67867b8ba6ceba340) `docker pull apache/submarine:mini-0.4.0`
-      * [submarine server](https://hub.docker.com/layers/apache/submarine/server-0.4.0/images/sha256-9e9775e0ed2ac9d4b108dd747dfb4f4fc27cee0fdd19501e1f53db30d966a3db) `docker pull apache/submarine:server-0.4.0`
-      * [submarine database](https://hub.docker.com/layers/apache/submarine/database-0.4.0/images/sha256-5edf4aac2c14e14f78a9955bd84757879e1c05266c1edd5a7d5ef08b6359a400) `docker pull apache/submarine:database-0.4.0`
+      * [mini-submarine](https://hub.docker.com/layers/apache/submarine/mini-0.5.0/images/sha256-e3248c8c6336b245539028043783b91135eaffe9302dec05fe13571a0f2902a6) `docker pull apache/submarine:mini-0.5.0`
+      * [submarine server](https://hub.docker.com/layers/apache/submarine/server-0.5.0/images/sha256-1805df8fd8e5274d16be8cdf39900d8576119c0caac7598db29990ebe138bf5c) `docker pull apache/submarine:server-0.5.0`
+      * [submarine database](https://hub.docker.com/layers/apache/submarine/database-0.5.0/images/sha256-073889e773c1b44cef9f518dc2fc468ebc420200f6087e2a943438677dadc9e5) `docker pull apache/submarine:database-0.5.0`
+      * [submarine jupyter-notebook](https://hub.docker.com/layers/apache/submarine/jupyter-notebook-0.5.0/images/sha256-f3cc2510c208b752ef4be7b383ee8f2325e4fc538696078bdb604d62fa47e4be) `docker pull apache/submarine:jupyter-notebook-0.5.0`
     * SDK:
-      * [PySubmarine](https://pypi.org/project/apache-submarine/0.4.0/) `pip install apache-submarine==0.4.0`
+      * [PySubmarine](https://pypi.org/project/apache-submarine/0.5.0/) `pip install apache-submarine==0.5.0`
 
 ## Verify the integrity of the files
 
@@ -59,7 +60,19 @@ For developers, to get latest version check [README](https://github.com/apache/s
 
 
 ## Old releases
+  - Apache Submarine 0.4.0 released on Jul 05, 2020 ([release notes](./releases/submarine-release-0.4.0.html)) ([git tag](https://github.com/apache/submarine/tree/rel/release-0.4.0))
 
+    * Binary package with submarine:
+    <a style="cursor:pointer" onclick="window.location.href='https://www.apache.org/dyn/closer.cgi/submarine/submarine-0.4.0/submarine-dist-0.4.0-hadoop-2.9.tar.gz'">submarine-dist-0.4.0-hadoop-2.9.tar.gz</a> (550 MB,
+    [checksum](https://www.apache.org/dist/submarine/submarine-0.4.0/submarine-dist-0.4.0-hadoop-2.9.tar.gz.sha512),
+    [signature](https://www.apache.org/dist/submarine/submarine-0.4.0/submarine-dist-0.4.0-hadoop-2.9.tar.gz.asc))
+    * Source:
+    <a style="cursor:pointer" onclick="window.location.href='https://www.apache.org/dyn/closer.cgi/submarine/submarine-0.4.0/submarine-dist-0.4.0-src.tar.gz'">submarine-dist-0.4.0-src.tar.gz</a> (6 MB,
+    [checksum](https://www.apache.org/dist/submarine/submarine-0.4.0/submarine-dist-0.4.0-src.tar.gz.sha512),
+    [signature](https://www.apache.org/dist/submarine/submarine-0.4.0/submarine-dist-0.4.0-src.tar.gz.asc))
+    * Docker images:
+    *[mini-submarine](https://hub.docker.com/layers/apache/submarine/mini-0.4.0/images/sha256-a8e7bd98f1f0325223d68e0ba64fd48bd56ee91736461d289945e70ad138e08f)* [(guide)](https://github.com/apache/submarine/blob/rel/release-0.4.0/dev-support/mini-submarine/README.md#mini-submarine)
+    
   - Apache Submarine 0.3.0 released on Feb 01, 2020 ([release notes](./releases/submarine-release-0.3.0.html)) ([git tag](https://github.com/apache/submarine/tree/rel/release-0.3.0))
 
     * Binary package with submarine:
