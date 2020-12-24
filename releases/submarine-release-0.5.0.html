@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Web Application</title>
+    <title>Apache Submarine Release 0.5.0</title>
     <meta name="description" content="">
     <meta name="author" content="The Apache Software Foundation">
 
@@ -124,120 +124,14 @@
     <div class="content">
       
 
+<!--<div class="hero-unit Apache Submarine Release 0.5.0">
+  <h1></h1>
+</div>
+-->
+
 <div class="row">
-  
-    <div class="sideMenu col-sm-3">
-      
-      
-      
-
-
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-        
-      
-    
-  
-    
-      
-        
-      
-    
-  
-    
-      
-    
-  
-    
-      
-        
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-        
-      
-    
-  
-    
-      
-        
-      
-    
-  
-    
-      
-        
-      
-    
-  
-    
-      
-        
-      
-    
-  
-    
-      
-    
-  
-    
-      
-        
-      
-        
-          
-            <li class="active"><a href="/contribution/webapplication.html" class="active">Web Application</a></li>
-          
-        
-      
-    
-  
-
-
-
-
-    </div>
-    <div class="col-sm-9">
-      <!--
+  <div class="col-md-12">
+    <!--
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -251,158 +145,30 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-<h1>Contributing to Submarine-Web</h1>
+<h2>Apache Submarine Release 0.5.0</h2>
 
-<h2>Dev Mode</h2>
+<p>The Apache Submarine Community is pleased to announce the availability of the 0.5.0 release.</p>
 
-<p>When working on Submarine&#39;s WebApplication, it is recommended to run in dev mode.</p>
-
-<p>For that, start Submarine server normally, then use <code>yarn run dev</code> in <em>submarine-web</em> directory.</p>
-
-<p>This will launch a Submarine WebApplication on port <strong>9000</strong> that will update on code changes.</p>
-
-<h2>Technologies</h2>
-
-<p>Submarine WebApplication is using <strong>AngularJS</strong> as main Framework, and <strong>Grunt</strong> and <strong>Bower</strong> as helpers.</p>
-
-<p>So you might want to get familiar with it.
-<a href="http://www.sitepoint.com/kickstart-your-angularjs-development-with-yeoman-grunt-and-bower/">Here is a good start</a>
-(There is obviously plenty more ressources to learn)</p>
-
-<h2>Good Practices</h2>
-
-<p>On the side menu of this page, you will find documentation about some of the best practices we want to apply
-in this project.</p>
-
-<p>This is a great way for people to learn more about angularJS, and to keep the code clean and optimized.</p>
-
-<p>Please try to follow those <strong>Good Practices Guides</strong> when making a PR or reviewing one.</p>
-
-<h2>Coding style</h2>
+<p>The community put significant effort into improving Apache Submarine since the last release.
+99 patches for improvements and bug fixes. The highlighted features are as follows:</p>
 
 <ul>
-<li>We follow mainly the <a href="https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">Google Javascript Guide</a></li>
-<li>We use a 2 spaces indentation</li>
-<li>We use single quotes</li>
+<li>Submarine Experiments: Redefined the experiment spec, sync up code from Git, it could be HTTP and ssh</li>
+<li>Predefined experiment template: Register A experiment template and submit related parameter to run an experiment using Rest API</li>
+<li>Environment profile: Users could easily manage their docker image and conda environment</li>
+<li>Jupyter Notebook: Spawn a jupyter notebook using Rest API, and execute ML code on K8s, or submit an experiment to submarine server</li>
+<li>Submarine Workbench UI: CRUD Experiment, Environment, Notebook through the UI </li>
+<li>Disable interpreter module</li>
 </ul>
 
-<p>But don&#39;t worry, Eslint and Jscs will make you remember it for the most part.</p>
+<p>We encourage to <a href="../../download.html">download</a> the latest release. Feedback through the <a href="../../community/contributors.html#mailing-list">mailing lists</a> is very welcome.</p>
 
-<p>We try not to have <strong>JQuery except in directives</strong>, If you want to include a library,
-please search for its <strong>angularJS</strong> directive first.</p>
+<p><br />
+You can visit <a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12348041&projectId=12322824">issue tracker</a> for full list of issues that are resolved.</p>
 
-<p>If you still need to use it, then please use <code>angular.element()</code> instead of <code>$()</code></p>
+<p><br /></p>
 
-<h2>Folder Structure &amp; Code Organization</h2>
-
-<ul>
-<li><code>src</code> folder: Contains the Source code for Submarine WebApplication</li>
-<li><code>dist</code> folder: Contains the compiled code after using <strong>yarn run build</strong></li>
-</ul>
-
-<h3>Src and Code Organization</h3>
-
-<p>The <code>src</code> folder is organized as such:</p>
-
-<pre>
- src/
- ├──  app/
- │   ├──  name/
- │   │    ├──  name.controller.js
- |   |    ├──  name.html
- |   |    ├──  subComponent1/
- |   |    |    ├──  subComponent1.html
- |   |    |    ├──  subComponent1.css
- │   |    |    └──  subComponent1.controller.js
- │   │    └──  name.css
- │   ├──  app.js
- │   └──  app.controller.js
- ├──  assets/
- │   ├──  images/
- │   └──  styles/
- |        ├──  looknfeel/
- │        └──  printMode.css
- ├──  components/
- │   ├──  component1/
- |   |    ├──  component1.html
- │   |    └──  component1.controller.js
- │   └──  component2/
- ├──  fonts/
- |    ├──  *.{eot,svg,ttf,woff,otf}
- │    └──  *.css
- ├──  favicon.ico
- ├──  index.html
- ├──  index.js
- └──  404.html
-</pre>
-
-<p>The code is now organized in a component type of architecture, where everything is logically grouped.</p>
-
-<h4>File type name convention</h4>
-
-<p>In order to understand what is contained inside the .js files without opening it, we use some name conventions:</p>
-
-<ul>
-<li>.controller.js</li>
-<li>.directive.js</li>
-<li>.service.js</li>
-</ul>
-
-<h3>Component Architecture</h3>
-
-<p>When we talk about Component architecture, we think about grouping files together in a logical way.</p>
-
-<p>A component can then be made of multiple files like <code>.html</code>, <code>.css</code> or any other file type mentioned above.</p>
-
-<p>Related components can be grouped as sub-component as long as they are used in that component only.</p>
-
-<h4>App folder</h4>
-
-<p>Contains the application <code>app.js</code> and page related components.</p>
-
-<ul>
-<li>Home Page</li>
-<li>Interpreter Page</li>
-<li>Notebook Page
-etc...</li>
-</ul>
-
-<p>The only restriction being that a component in the <code>app</code> folder is <strong>not used anywhere else</strong></p>
-
-<h4>Components folder</h4>
-
-<p>The <code>components</code> folder is here to contains any reusable component (used more than once)</p>
-
-<h3>Fonts</h3>
-
-<p>Fonts files and their css are mixed together in the <code>fonts</code> folder</p>
-
-<h2>New files includes</h2>
-
-<p>As we do not use yeoman to generate controllers or other type of files with this new structure,
-we need to do some includes manually in <code>index.html</code> in order to use dev mode and compile correctly.</p>
-
-<ul>
-<li>Non-bower <code>.js</code> files needs to be injected between the tag <code>&lt;!-- build:js({.tmp,src}) scripts/scripts.js --&gt;</code></li>
-<li>Css files needs to be injected between the tag <code>&lt;!-- build:css(.tmp) styles/main.css --&gt;</code></li>
-</ul>
-
-<h2>Add plugins with Bower</h2>
-<figure class="highlight"><pre><code class="language-text" data-lang="text">bower install &lt;plugin&gt; --save
-</code></pre></figure>
-<p>The file index.html will automatically update with the new bower_component</p>
-
-<p><br/></p>
-
-<p><strong>Example</strong>: <code>./bower install angular-nvd3</code></p>
-
-<p>You should find that line in the index.html file
-<code>
-&lt;script src=&quot;bower_components/angular-nvd3/dist/angular-nvd3.js&quot;&gt;&lt;/script&gt;
-</code>`</p>
-
-    </div>
-  
+  </div>
 </div>
 
 
