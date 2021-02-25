@@ -1,3 +1,5 @@
+# This file allow Apache to hlep us automatically update the website,
+# when we push commit to https://github.com/apache/submarine-site
 publish:
   whoami: asf-site
   
